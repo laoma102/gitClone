@@ -1,3 +1,3 @@
 psvm
 main
-public void main()
+public void main222()
