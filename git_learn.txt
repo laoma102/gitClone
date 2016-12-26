@@ -12,5 +12,6 @@ git branch -d dev  删除dev分支
 --no-ff 禁用Fast forward模式，Git就会在merge时生成一个新的commit
 这种分支信息，我想是分支提交的历史信息。初步认为是手动merge的情况下会丢失，因为ff模式亲试 git log可以看到记录
 虽然git log 看不到，但是git reflog 可以看到所有的。
+--丢失分支信息 是指 用命令git log --pretty=oneline --graph --abbrev-commit 看不到分支合并的信息。
 
 如果git能够自己merge，则直接merge完就是提交完毕的状态。so 工作空间是干净的，只要push就好
