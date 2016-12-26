@@ -6,3 +6,4 @@ git checkout dev  切换
 git branch 查看分支
 git merge dev 在当前master分支上 合并dev分支--》   合并某分支到当前分支
 git branch -d dev  删除dev分支
+
